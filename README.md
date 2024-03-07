@@ -39,6 +39,14 @@
   
   
   
-  list<int> media =[10, 20, 30, 40, 50]
+ 
+ List <int> idade =[25, 22, 30, 16, 34];
+List <String> nome =["Ronald","Marcio","Eduardo","Gabriel"];
+List <String> profissao =["Engenheiro","Agronomo","Fazendeiro","aluno"]; 
   
+  print('${nome [3]} Tem ${idade [3]} anos, sua profissao é:${profissao [3]} ');
+  
+  
+
+}
     print nuemros =
