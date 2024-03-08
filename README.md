@@ -47,24 +47,20 @@ List <String> profissao =["Engenheiro","Agronomo","Fazendeiro","aluno"];
   print('${nome [3]} Tem ${idade [3]} anos, sua profissao é:${profissao [3]} ');
   
   
+void main() {
+
+List<int> idade =[25, 22, 30, 16, 34, 16, 95, 10];
+
+List<String> nome =["Gabriel com g", "Eduardo da moto", "Felipao", "Tonhao", "Igor", "Antonio", "Joao da Agua "];
+
+List<int> cpf = [12132354623, 94443402012, 42940653038, 04988735010, 66177730043, 13112176065, 29713221060, 80289803098];
+
+List<String> endereco = ["Rua Ceara 123", "Rua Paraiba 423", "Rua Mole 991", "Rua Panama 001", "Rua Sem pé 552", "Rua molhada 885", "Rua Cavala 666", "Rua Cabral 777"];
+
+List<String> nomedamae = ["Daniela", "Gabriela", "Eduarda", "Marcela", "Doris", "Angela", "Julia", "Maria"];
+
+List<String> curso = ["Programaçao Mobile", "Portugues", "Matematica", "PHP", "Engenheiro", "Ciencias da Computação", "Arquiteto", "Artista",];
+
+print ('O nome do Aluno é ${nome[1]} e tem ${idade [2]} anos de idade, o seu cpf é ${cpf [1]} seu endereço é na ${endereco [1]} nome da mãe é ${nomedamae [1]} e escolhou o curso de ${curso [1]}');
 
 }
-    void main() {
-
-  List<int> idade =[25, 22, 30, 16, 34, 16, 95, 10];
-  
-  List<String> nome =['Gabriel com g, Eduardo da moto, Felipao, Tonhao, Igor, Antonio, Joao da Agua      '];
-  
-  List<int> cpf = [12132354623, 94443402012, 42940653038, 04988735010, 66177730043, 13112176065, 29713221060, 80289803098];
-  
-  
-  List<String> endereco = ['Rua Ceara 123, Rua Paraiba 423, Rua Mole 991, Rua Panama 001, Rua Sem pé 552, Rua molhada 885, Rua Cavala 666, Rua Cabral 777'];
-  
-  List<String> nomedamae = ['Daniela, Gabriela, Eduarda, Marcela, Doris, Angela, Julia, Maria'];
-  
-  List<String> curso = ['Programaçao Mobile, Portugues, Matematica, PHP, Engenheiro, Ciencias da Computação, Arquiteto, Artista,'];
-  
-  print ('O nome do Aluno é ${nome[0]} e tem ${idade [0]} anos de idade, seu ${endereco [0]} o ${nomedamae [0]}  o seu ${cpf [0]} e a escolha do ${curso [0]}';
-  
-  }
-  
