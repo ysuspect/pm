@@ -47,11 +47,12 @@ List <String> profissao =["Engenheiro","Agronomo","Fazendeiro","aluno"];
   print('${nome [3]} Tem ${idade [3]} anos, sua profissao é:${profissao [3]} ');
   
   
+
 void main() {
 
 List<int> idade =[25, 22, 30, 16, 34, 16, 95, 10];
 
-List<String> nome =["Gabriel com g", "Eduardo da moto", "Felipao", "Tonhao", "Igor", "Antonio", "Joao da Agua "];
+List<String> nome =["Gabriel com g", "Eduardo da moto", "Felipao", "Tonhao", "Igor", "Antonio", "Joao da Agua", "Paula"];
 
 List<int> cpf = [12132354623, 94443402012, 42940653038, 04988735010, 66177730043, 13112176065, 29713221060, 80289803098];
 
@@ -61,6 +62,29 @@ List<String> nomedamae = ["Daniela", "Gabriela", "Eduarda", "Marcela", "Doris", 
 
 List<String> curso = ["Programaçao Mobile", "Portugues", "Matematica", "PHP", "Engenheiro", "Ciencias da Computação", "Arquiteto", "Artista",];
 
-print ('O nome do Aluno é ${nome[1]} e tem ${idade [2]} anos de idade, o seu cpf é ${cpf [1]} seu endereço é na ${endereco [1]} nome da mãe é ${nomedamae [1]} e escolhou o curso de ${curso [1]}');
+print ('O nome do Aluno é ${nome[0]} e tem ${idade [0]} anos de idade, o seu cpf é ${cpf [0]} seu endereço é na ${endereco [0]} nome da mãe é ${nomedamae [0]} e escolhou o curso de ${curso [0]}');
+print ("///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");  
+
+print ('O nome do Aluno é ${nome[1]} e tem ${idade [1]} anos de idade, o seu cpf é ${cpf [1]} seu endereço é na ${endereco [1]} nome da mãe é ${nomedamae [1]} e escolhou o curso de ${curso [1]}');
+print ("///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");  
+  
+print ('O nome do Aluno é ${nome[2]} e tem ${idade [2]} anos de idade, o seu cpf é ${cpf [2]} seu endereço é na ${endereco [2]} nome da mãe é ${nomedamae [2]} e escolhou o curso de ${curso [2]}');
+
+print ("///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");  
+  
+print ('O nome do Aluno é ${nome[3]} e tem ${idade [3]} anos de idade, o seu cpf é ${cpf [3]} seu endereço é na ${endereco [3]} nome da mãe é ${nomedamae [3]} e escolhou o curso de ${curso [3]}');
+print ("///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");  
+
+print ('O nome do Aluno é ${nome[4]} e tem ${idade [4]} anos de idade, o seu cpf é ${cpf [4]} seu endereço é na ${endereco [4]} nome da mãe é ${nomedamae [4]} e escolhou o curso de ${curso [4]}');
+print ("///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");  
+
+print ('O nome do Aluno é ${nome[5]} e tem ${idade [5]} anos de idade, o seu cpf é ${cpf [5]} seu endereço é na ${endereco [5]} nome da mãe é ${nomedamae [5]} e escolhou o curso de ${curso [5]}');
+print ("///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");  
+
+print ('O nome do Aluno é ${nome[6]} e tem ${idade [6]} anos de idade, o seu cpf é ${cpf [6]} seu endereço é na ${endereco [6]} nome da mãe é ${nomedamae [6]} e escolhou o curso de ${curso [6]}');
+print ("///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");  
+  
+print ('O nome do Aluno é ${nome[7]} e tem ${idade [7]} anos de idade, o seu cpf é ${cpf [7]} seu endereço é na ${endereco [7]} nome da mãe é ${nomedamae [7]} e escolhou o curso de ${curso [7]}'); 
+
 
 }
